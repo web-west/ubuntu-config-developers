@@ -22,11 +22,22 @@
   - Viber скачать и установить с deb
   - Slack скачать и установить с deb
   - Avocode скачать и установить с deb
+  - Dropbox скачать и установить с deb
+  - MegaSync скачать и установить с deb
 
 ### Установка утилит
   - Htop  через магазин приложений
   - Gparted через магазин приложений
-  - 
+  - git ```$ sudo apt-get install git```
+  - nodejs ```$ sudo apt-get install nodejs```
+  - npm ```$ sudo apt-get install npm``` и обновить ```npm i npm```
+    настройка прав
+    ```
+    $ mkdir ~/.npm-global
+    $ npm config set prefix '~/.npm-global'
+    $ echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
+    $ source ~/.profile
+    ```
 ### Plugins
 
 Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
